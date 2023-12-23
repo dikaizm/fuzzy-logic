@@ -1,47 +1,41 @@
-# Fuzzy Logic System
+# Fuzzy Logic
 
-This repository contains a simple implementation of a fuzzy logic system using Python. The fuzzy logic system involves the use of membership functions, rules, and defuzzification to make decisions based on uncertain or imprecise input.
-
-## Dependencies
-
-To run this fuzzy logic system, you need to have the following Python libraries installed:
-
-- [Pandas](https://pandas.pydata.org/): A powerful data manipulation library.
-- [NumPy](https://numpy.org/): A fundamental package for scientific computing with Python.
-- [Matplotlib](https://matplotlib.org/): A 2D plotting library for creating static, animated, and interactive visualizations.
-- [Seaborn](https://seaborn.pydata.org/): A statistical data visualization library based on Matplotlib.
+This repository contains a fuzzy logic system implemented in Python using Jupyter Notebook. The system relies on several external libraries, and it is recommended to install them before running the notebook. Follow the instructions below to set up your environment and execute the fuzzy logic system.
 
 ## Installation
 
-You can install the required dependencies using the following command:
+Make sure you have Python installed on your machine. You can download it from [Python's official website](https://www.python.org/downloads/).
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required libraries: pandas, numpy, matplotlib, and seaborn.
 
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
-Make sure to have Python and pip installed on your machine before running the command.
+## Running the Fuzzy Logic System
 
-## Usage
+1. Clone this repository to your local machine:
 
-Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/dikaizm/fuzzy-logic.git
+   ```
 
-```bash
-git clone https://github.com/your-username/fuzzy-logic-system.git
-cd fuzzy-logic-system
-```
+2. Navigate to the project directory:
 
-Run the main script:
+   ```bash
+   cd fuzzy-logic
+   ```
 
-```bash
-python main.py
-```
+3. Launch Jupyter Notebook:
 
-Explore the code and customize it based on your fuzzy logic system requirements.
+   ```bash
+   jupyter notebook
+   ```
 
-## Contributing
+4. Open the `fuzzy.ipynb` notebook in your code editor.
 
-If you have suggestions or find any issues, feel free to open an issue or create a pull request. Contributions are welcome!
+5. Execute each cell in the notebook sequentially to see the fuzzy logic system in action.
 
-## License
+   > Note: Ensure that you have an active Python kernel associated with your Jupyter Notebook.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Happy fuzzy logic experimenting! If you encounter any issues or have questions, don't hesitate to reach out.
